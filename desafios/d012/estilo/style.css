@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'escrita';
+    src: url(../fontes/GreatVibes-Regular.ttf) format('TrueType');
+}
+@font-face {
+    font-family: 'cabecalho';
+    src: url(../fontes/Philosopher-Regular.ttf) format('TrueType'), url(../fontes/Philosopher-Italic.ttf), url(../fontes/Philosopher-BoldItalic.ttf) format('TrueType'), url(../fontes/Philosopher-Bold.ttf) format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body{
+    min-width: 100vh;
+    background-color: darkgray;
+}
+header{
+    background-image: linear-gradient(to right, rgb(20, 20, 20), rgb(77, 76, 76));
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: -3px 7px 8px 1px rgb(48 48 48);
+    padding-top: 30px;
+}
+header > h1{
+    padding-top: 10px;
+    margin-bottom: 0%;
+    font-variant: small-caps;
+    font-family: 'cabecalho', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 70px;
+}
+header > p {
+    padding-bottom: 50px;
+    font-family: 'cabecalho', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 0%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    font-family: 'escrita', Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2.5em;
+    padding-left: 50px;
+}
+section > p{
+    font-size: 1.7em;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+}
+section#imagem0{
+    background-image: url(../imagens/background001.jpg);
+    background-position: center right;
+    background-size: cover;
+}
+section#imagem1{
+    background-image: url(../imagens/background002.jpg);
+    background-position: center right;
+    background-size: cover;
+    text-shadow: 4px 6px 3px black;
+}
+section.normal{
+    background-color: rgba(255, 255, 255, 0.596);
+    padding-left: 90px;
+}
+section.imagem{
+    background-color: rgba(48, 47, 47, 0.514);
+    color: white;
+    box-shadow: inset 1px 14px 28px -6px black;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+footer > p{
+    font-family: 'cabecalho', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
