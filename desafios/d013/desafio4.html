@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        @font-face {
+        font-family: 'fonte1';
+        src: url(fontes/Philosopher-Bold.ttf) format('TrueType'), url(fontes/Philosopher-BoldItalic.ttf) format('TrueType'), url(fontes/Philosopher-Italic.ttf) format('TrueType'), url(fontes/Philosopher-Regular.ttf) format('TrueType');
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{ 
+            font-family: 'fonte1', Arial, Helvetica, sans-serif;
+            font-size: 3.5em; 
+        }
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+        caption{
+            font-family: 'fonte1', Arial, Helvetica, sans-serif;
+            font-size: xx-large;
+            font-size: 2.5em;
+        }
+        th{
+            border: 1px solid black;
+            text-align: center;
+            font-weight: bolder;
+            padding: 5px;
+        }
+        th#a1{
+            text-align: left;
+        }
+        tr.a2{
+            background-color: darkgray;
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        exercício de tabela 02
+    </h1>
+    <table>
+        <caption>novo exercício de tabela</caption>
+        <thead>
+        <tr class="a2">   
+            <th scope="col" rowspan="2">area</th>    
+            <th scope="col" rowspan="2">diciplinas</th>    
+            <th scope="colgroup" colspan="2">notas</th>        
+            <th scope="col" rowspan="2">média</th>        
+        </tr>    
+        <tr class="a2"> 
+            <th scope="col">nota 1</th>  
+            <th scope="col">nota 2</th>      
+        </tr>       
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="4">exatas</th>
+                <td>matemática</td>
+                <td>8.5</td>
+                <td>9.0</td>
+                <td>8.75</td>
+            </tr>
+            <tr>
+                <td>física</td>
+                <td>10.0</td>
+                <td>9.0</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td>química</td>
+                <td>10.0</td>
+                <td>9.0</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td>biologia</td>
+                <td>10.0</td>
+                <td>9.0</td>
+                <td>9.5</td>
+            </tr>
+            <tr class="a2">
+                <th class="a1" scope="row"  colspan="4">média de exatas</th>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="2">humanas</th>
+                <td>história</td>
+                <td>10.0</td>
+                <td>10.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <td>geografia</td>
+                <td>9.0</td>
+                <td>9.0</td>
+                <td>9.0</td>
+            </tr>
+            <tr class="a2">
+                <th class="a1" scope="row" colspan="4">média de humanas</th>
+                <td>9.5</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
