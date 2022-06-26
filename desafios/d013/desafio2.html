@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio 2</title>
+    <style>
+        @font-face {
+            font-family: 'fonte1';
+            src: url(fontes/Philosopher-BoldItalic.ttf) format('TrueType'), url(fontes/Philosopher-Italic.ttf)format('TrueType'), url(fontes/Philosopher-Regular.ttf) format('TrueType'), url(fontes/Philosopher-Bold.ttf) format('TrueType');
+        }
+        body{
+            font-family: 'fonte1', Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            border: 1px solid black;
+            box-shadow: 6px 7px 40px -10px;
+            text-transform: uppercase;
+        }
+        caption{
+            font-size: 20px;
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        tbody >tr:nth-child(even){
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>desafio 2</h1>
+    <table>
+        <caption>desafio 2 de mesclagem de células</caption>
+        <tr>
+            <td colspan="4">a</td>
+            <td rowspan="4">b</td>
+        </tr>
+        <tr>
+            <td rowspan="4">c</td>
+            <td>d</td>
+            <td>e</td>
+            <td>f</td>
+        </tr>
+        <tr>
+            <td>g</td>
+            <td>h</td>
+            <td>i</td>
+        </tr>
+        <tr>
+            <td>j</td>
+            <td>l</td>
+            <td>m</td>
+        </tr>
+        <tr>
+            <td colspan="4">n</td>
+        </tr>
+    </table>
+</body>
+</html>

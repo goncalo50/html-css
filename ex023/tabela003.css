@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'fonte1';
+    src: url(fontes/Philosopher-Bold.ttf) format('TrueType'), url(fontes/Philosopher-BoldItalic.ttf) format('TrueType'), url(fontes/Philosopher-Italic.ttf) format('TrueType'), url(fontes/Philosopher-Regular.ttf) format('TrueType');
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+table{
+    border-collapse: collapse;
+    width: 400px;
+    font-family: 'fonte1';
+    text-transform: uppercase;
+}
+th{
+    border: 1px solid black;
+    padding: 10px;
+}
+td{
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
