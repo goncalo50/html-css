@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family = Dancing + Script & display = swap');
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, #D9D0B4, #afafb3);
+    margin: 0px;
+}
+header{
+    background-color: #a3a660a1;
+    box-shadow: 2px 4px 11px 0px #6d605e9a;
+    border-radius: 0px 0px 8px 8px;
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    height: 100px;
+}
+nav{
+    background-color: rgba(245, 222, 179, 0.146);
+    font-size: 1.2em;
+}
+nav > a{
+    text-decoration: none;
+    border: 30px;
+    margin-right: 50px;
+    font-weight: bolder;
+}
+a:visited{
+    color: rgb(13, 13, 157);
+}
+nav > a:hover{
+    color: rgb(48, 19, 52);
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    box-shadow:4px 12px 20px 0px rgb(0 0 0);
+    text-align: justify;
+    margin: 10px 10px 20px 10px;
+    height: 300px;
+}
+article{
+    background-color: #AAAAAA;
+    padding: 5px;
+
+}
+article > aside{
+    background-color: #919191;
+    text-align: right;
+}
+span#criado{
+    font-family: 'Dancing Script', cursiva;
+    font-style: italic;
+}
+footer{
+    background-color: #594E4C;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
+span{
+    font-family: 'Dancing Script', cursiva;
+}

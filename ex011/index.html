@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>imagens e videos</title>
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+    <p>eu vou tentar abrir essas imagens em vários dispositivos </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto-g">
+    <h1>reproduzindo áudio em mp3</h1>
+    <audio src="midia/Time to Spare - An Jone.mp3" controls autoplay></audio>
+    <h2>podcast guanabara</h2>
+    <audio preload="metadata"controls autoplay loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+    </picture>
+</body>
+</html>
